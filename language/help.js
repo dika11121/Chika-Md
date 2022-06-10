@@ -9,7 +9,7 @@
 exports.menu = (botname, pushname, salam) => {
 	return`Selamat ${salam} kak ${pushname}
 
-Saya ${botname}, `
+Saya ${botname}, 😆`
 }
 
 //—————「 List 」—————//
