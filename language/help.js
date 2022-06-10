@@ -9,8 +9,7 @@
 exports.menu = (botname, pushname, salam) => {
 	return`Selamat ${salam} kak ${pushname}
 
-Saya ${botname}, Bot Ini Adalah Beta Multi-Device WhatsApp.
-Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🙏`
+Saya ${botname}, `
 }
 
 //—————「 List 」—————//
@@ -27,7 +26,7 @@ return`  _Selamat ${salam} kak ${pushname}_
 
   *GROUP MENU*
   *≻* ${prefix}linkgroup
-  *≻* ${prefix}ephemeral [option]
+  *≻* ${prefix}Formintro 
   *≻* ${prefix}setppgc
   *≻* ${prefix}setname 
   *≻* ${prefix}setdesc 
