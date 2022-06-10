@@ -1238,7 +1238,43 @@ break
                 if (!m.isGroup) return reply(mess.group)
                 if (!isBotAdmins) return reply(mess.botAdmin)
                 if (!isAdmins) return reply(mess.admin)
-                if (!text) throw 'Masukkan value enable/disable'
+                if (!text) throw '━━━༺ _*WELCOME*_ ༻━━━
+.｡.:✧ *To Specta Vermelion* ✧:.｡.
+
+Nama              :
+IGN                  :
+Umur               :
+Gender            :
+Asal                 :
+Job andalan   :
+Buff                 :
+Sudah Berapa Lama Main Toram :
+
+━━━༺ _*Thank You*_ ༻━━━
+    ¦         ¦         ¦         ¦          ¦
+    ¦         ¦         ¦         ¦         ❀
+    ¦         ¦         ¦        ❀         
+    ¦         ¦        ❁            
+    ¦        ❀             
+   ❀'
+   if (!text) throw ' Form Diatas Diisi *Dengan Serius* Demi Kenyamanan Bersama.
+Setelah Mengisi Form Harap Membaca Tentang Aturan Di Dalam Guild
+- Jaga *ATTITUDE*
+- Jangan *BAPERAN*
+- Dilarang *DRAMA*
+- Dilarang *SHARE HENTAI/PORNO*
+- Jangan Tampilkan *HARGA* berupa *Rupiah/IDR*(Wajib  PM Yang  *JUALAN*)
+- No Bahas Jenis *POLITIK,HOAX*
+- Dilarang bahas *MOD/CHEAT*
+- Jangan suka *SIDER DARI IN GAME DAN GRUP*
+- Tidak Menerima Akun *CLONE*
+- Tidak *ON* selama 7 hari *KICK*
+- *Izin PM LEAD/VICE* Jika ada kesibukan
+- *BISA MEMBACA*
+Hadir event Guild kalo gabisa hadir kasih tau ke *LEADER DAN VICE*
+
+Form diatas cukup *SALIN>ISI>KIRIM* Tidak perlu di tulis ulang
+Selamat Bergabung Dan Have Fun'
                 if (args[0] === 'enable') {
                     await chika.sendMessage(m.chat, { disappearingMessagesInChat: WA_DEFAULT_EPHEMERAL }).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                 } else if (args[0] === 'disable') {
