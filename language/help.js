@@ -26,7 +26,7 @@ return`  _Selamat ${salam} kak ${pushname}_
 
   *GROUP MENU*
   *≻* ${prefix}linkgroup
-  *≻* ${prefix}Formintro 
+  *≻* ${prefix}formintro 
   *≻* ${prefix}setppgc
   *≻* ${prefix}setname 
   *≻* ${prefix}setdesc 
